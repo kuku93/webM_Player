@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3A22AE22B3CC3F00927945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A22AD22B3CC3F00927945 /* AppDelegate.swift */; };
+		BA3A22B322B3CC3F00927945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A22B122B3CC3F00927945 /* Main.storyboard */; };
+		BA3A22B522B3CC4000927945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3A22B422B3CC4000927945 /* Assets.xcassets */; };
+		BA3A22B822B3CC4000927945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A22B622B3CC4000927945 /* LaunchScreen.storyboard */; };
+		BA3A22C422B3CC7200927945 /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A22BF22B3CC7200927945 /* PlaybackViewController.swift */; };
+		BA3A22C522B3CC7200927945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A22C022B3CC7200927945 /* ViewController.swift */; };
+		BA3A22C622B3CC7200927945 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A22C222B3CC7200927945 /* PlayerCell.swift */; };
+		BA3A22C722B3CC7200927945 /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3A22C322B3CC7200927945 /* PlayerCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA3A22AA22B3CC3F00927945 /* webmPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webmPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3A22AD22B3CC3F00927945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3A22B222B3CC3F00927945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3A22B422B3CC4000927945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3A22B722B3CC4000927945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3A22B922B3CC4000927945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3A22BF22B3CC7200927945 /* PlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
+		BA3A22C022B3CC7200927945 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA3A22C122B3CC7200927945 /* webMPlayer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "webMPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA3A22C222B3CC7200927945 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		BA3A22C322B3CC7200927945 /* PlayerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3A22A722B3CC3F00927945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3A22A122B3CC3F00927945 = {
+			isa = PBXGroup;
+			children = (
+				BA3A22AC22B3CC3F00927945 /* webmPlayer */,
+				BA3A22AB22B3CC3F00927945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3A22AB22B3CC3F00927945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A22AA22B3CC3F00927945 /* webmPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3A22AC22B3CC3F00927945 /* webmPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A22BF22B3CC7200927945 /* PlaybackViewController.swift */,
+				BA3A22C222B3CC7200927945 /* PlayerCell.swift */,
+				BA3A22C322B3CC7200927945 /* PlayerCell.xib */,
+				BA3A22C022B3CC7200927945 /* ViewController.swift */,
+				BA3A22C122B3CC7200927945 /* webMPlayer-Bridging-Header.h */,
+				BA3A22AD22B3CC3F00927945 /* AppDelegate.swift */,
+				BA3A22B122B3CC3F00927945 /* Main.storyboard */,
+				BA3A22B422B3CC4000927945 /* Assets.xcassets */,
+				BA3A22B622B3CC4000927945 /* LaunchScreen.storyboard */,
+				BA3A22B922B3CC4000927945 /* Info.plist */,
+			);
+			path = webmPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3A22A922B3CC3F00927945 /* webmPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3A22BC22B3CC4000927945 /* Build configuration list for PBXNativeTarget "webmPlayer" */;
+			buildPhases = (
+				BA3A22A622B3CC3F00927945 /* Sources */,
+				BA3A22A722B3CC3F00927945 /* Frameworks */,
+				BA3A22A822B3CC3F00927945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webmPlayer;
+			productName = webmPlayer;
+			productReference = BA3A22AA22B3CC3F00927945 /* webmPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3A22A222B3CC3F00927945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rigel Mac 9";
+				TargetAttributes = {
+					BA3A22A922B3CC3F00927945 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BA3A22A522B3CC3F00927945 /* Build configuration list for PBXProject "webmPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3A22A122B3CC3F00927945;
+			productRefGroup = BA3A22AB22B3CC3F00927945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3A22A922B3CC3F00927945 /* webmPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3A22A822B3CC3F00927945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A22C722B3CC7200927945 /* PlayerCell.xib in Resources */,
+				BA3A22B822B3CC4000927945 /* LaunchScreen.storyboard in Resources */,
+				BA3A22B522B3CC4000927945 /* Assets.xcassets in Resources */,
+				BA3A22B322B3CC3F00927945 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3A22A622B3CC3F00927945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A22C622B3CC7200927945 /* PlayerCell.swift in Sources */,
+				BA3A22C522B3CC7200927945 /* ViewController.swift in Sources */,
+				BA3A22AE22B3CC3F00927945 /* AppDelegate.swift in Sources */,
+				BA3A22C422B3CC7200927945 /* PlaybackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA3A22B122B3CC3F00927945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3A22B222B3CC3F00927945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3A22B622B3CC4000927945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3A22B722B3CC4000927945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3A22BA22B3CC4000927945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3A22BB22B3CC4000927945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3A22BD22B3CC4000927945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KUEC73496;
+				INFOPLIST_FILE = webmPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigelnetworks.webmPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3A22BE22B3CC4000927945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KUEC73496;
+				INFOPLIST_FILE = webmPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigelnetworks.webmPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3A22A522B3CC3F00927945 /* Build configuration list for PBXProject "webmPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A22BA22B3CC4000927945 /* Debug */,
+				BA3A22BB22B3CC4000927945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3A22BC22B3CC4000927945 /* Build configuration list for PBXNativeTarget "webmPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A22BD22B3CC4000927945 /* Debug */,
+				BA3A22BE22B3CC4000927945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3A22A222B3CC3F00927945 /* Project object */;
+}
